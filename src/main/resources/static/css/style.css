@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.see_thru {
+	background: rgba(255,255,255,0.66);
+}
+
+/* .container { */
+/* 	background: rgba(255,255,255,0.25); */
+/* } */
+
+.bgimg {
+	min-height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+	.bgimg-1 {
+		background-image: url("/img/map1.jpg");
+	}
+	.bgimg-2 {
+		background-image: url("/img/map2.jpg");
+	}
+	.bgimg-3 {
+		background-image: url("/img/map3.jpg");
+	}
+	.bgimg-4 {
+		background-image: url("/img/map4.jpg");
+	}
+	.bgimg-5 {
+		background-image: url("/img/map5.jpg");
+	}
+.bgwhite {
+	min-height: 100vh;
+	background: rgba(255,255,255,0.6);
+}
+
+.secret {
+	display: none;
+}
+
+#img_row {
+	display: none;
+}
+	.img_qr {
+		width: 100%; height: auto;
+	}
+
+#camera_div {
+	display: none;
+}
+	#error_msg {
+/* 		display: none; */
+	}
+
+	#camera_out {
+/* 		height: 80vh; width: auto; */
+/* 		margin: 0 auto; */
+/* 		display: block; */
+		width: 100%; height: auto;
+	}
+
+	#canvas {
+		display: none;
+	}
